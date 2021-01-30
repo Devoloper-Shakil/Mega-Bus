@@ -5,6 +5,9 @@
     text-decoration: none;
     list-style-type: none;
 }
+/* body img{
+    height: 100%;
+} */
 body{
     font-family: 'Roboto', sans-serif;
     background:url("images/bus.png");
@@ -12,6 +15,7 @@ body{
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
+    height: 600px;
    
 }
 nav{
@@ -131,6 +135,6 @@ nav ul li a:hover, a.active{
     position: absolute;
     margin-left: 187px;
     padding: 10px;
-    margin-top: 284px;
+    margin-top: 64px;
     border-radius: 12px;
 }
